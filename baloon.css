@@ -1,0 +1,214 @@
+body {
+	 background-color: #ddd;
+}
+ .balloons {
+	 height: 100%;
+	 width: 100%;
+	 position: absolute;
+}
+ .balloon {
+	 border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+	 display: block;
+	 height: 100px;
+	 opacity: 0.8;
+	 position: absolute;
+	 width: 80px;
+}
+ .balloon:after {
+	 border-left: 5px solid transparent;
+	 border-right: 5px solid transparent;
+	 bottom: -5px;
+	 content: "";
+	 height: 0;
+	 left: 45%;
+	 position: absolute;
+	 width: 0;
+}
+ .balloon0 {
+	 background-color: #8fbc8f;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 3%;
+	 animation: flyingBalloon 9s linear infinite;
+	 -webkit-animation: flyingBalloon 9s linear infinite;
+	 -moz-animation: flyingBalloon 9s linear infinite;
+	 
+}
+ .balloon0:after {
+	 border-bottom: 10px solid #8fbc8f;
+}
+ .balloon1 {
+	 background-color: #8fbc8f;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 9%;
+	 animation: flyingBalloon 11s linear infinite;
+	 -webkit-animation: flyingBalloon 11s linear infinite;
+	 -moz-animation: flyingBalloon 11s linear infinite;
+	
+}
+ .balloon1:after {
+	 border-bottom: 10px solid #8fbc8f;
+}
+ .balloon2 {
+	 background-color: #3c4542;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 17%;
+	 animation: flyingBalloon 12s linear infinite;
+	 -webkit-animation: flyingBalloon 12s linear infinite;
+	 -moz-animation: flyingBalloon 12s linear infinite;
+	
+}
+ .balloon2:after {
+	 border-bottom: 10px solid #3c4542;
+}
+ .balloon3 {
+	 background-color: #fc4513;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 26%;
+	 animation: flyingBalloon 8s linear infinite;
+	 -webkit-animation: flyingBalloon 8s linear infinite;
+	 -moz-animation: flyingBalloon 8s linear infinite;
+	
+}
+ .balloon3:after {
+	 border-bottom: 10px solid #fc4513;
+}
+ .balloon4 {
+	 background-color: #3c4542;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 33%;
+	 animation: flyingBalloon 12s linear infinite;
+	 -webkit-animation: flyingBalloon 12s linear infinite;
+	 -moz-animation: flyingBalloon 12s linear infinite;
+	
+}
+ .balloon4:after {
+	 border-bottom: 10px solid #3c4542;
+}
+ .balloon5 {
+	 background-color: #8fbc8f;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 39%;
+	 animation: flyingBalloon 8s linear infinite;
+	 -webkit-animation: flyingBalloon 8s linear infinite;
+	 -moz-animation: flyingBalloon 8s linear infinite;
+	 
+}
+ .balloon5:after {
+	 border-bottom: 10px solid #8fbc8f;
+}
+ .balloon6 {
+	 background-color: #fc4513;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 47%;
+	 animation: flyingBalloon 9s linear infinite;
+	 -webkit-animation: flyingBalloon 9s linear infinite;
+	 -moz-animation: flyingBalloon 9s linear infinite;
+	
+}
+ .balloon6:after {
+	 border-bottom: 10px solid #fc4513;
+}
+ .balloon7 {
+	 background-color: #8fbc8f;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 55%;
+	 animation: flyingBalloon 11s linear infinite;
+	 -webkit-animation: flyingBalloon 11s linear infinite;
+	 -moz-animation: flyingBalloon 11s linear infinite;
+	
+}
+ .balloon7:after {
+	 border-bottom: 10px solid #8fbc8f;
+}
+ .balloon8 {
+	 background-color: #fc4513;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 64%;
+	 animation: flyingBalloon 14s linear infinite;
+	 -webkit-animation: flyingBalloon 14s linear infinite;
+	 -moz-animation: flyingBalloon 14s linear infinite;
+
+}
+ .balloon8:after {
+	 border-bottom: 10px solid #fc4513;
+}
+ .balloon9 {
+	 background-color: #3c4542;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 72%;
+	 animation: flyingBalloon 9s linear infinite;
+	 -webkit-animation: flyingBalloon 9s linear infinite;
+	 -moz-animation: flyingBalloon 9s linear infinite;
+
+}
+ .balloon9:after {
+	 border-bottom: 10px solid #3c4542;
+}
+ .balloon10 {
+	 background-color: #8fbc8f;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 background-position: 0 10px;
+	 left: 82%;
+	 animation: flyingBalloon 12s linear infinite;
+	 -webkit-animation: flyingBalloon 12s linear infinite;
+	 -moz-animation: flyingBalloon 12s linear infinite;
+
+}
+ .balloon10:after {
+	 border-bottom: 10px solid #8fbc8f;
+}
+ 
+ @-webkit-keyframes flyingBalloon {
+	 from {
+		 bottom: -20%;
+	}
+	 to {
+		 bottom: 110%;
+	}
+}
+ @-moz-keyframes flyingBalloon {
+	 from {
+		 bottom: -20%;
+	}
+	 to {
+		 bottom: 110%;
+	}
+}
+ @-o-keyframes flyingBalloon {
+	 from {
+		 bottom: -20%;
+	}
+	 to {
+		 bottom: 110%;
+	}
+}
+ @keyframes flyingBalloon {
+	 from {
+		 bottom: -20%;
+	}
+	 to {
+		 bottom: 110%;
+	}
+}
+ 
